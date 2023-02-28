@@ -24,7 +24,10 @@
   list-style: none;
 }
 #article1 .rule li {
-  line-height: 1.5;
+  line-height: 1.8;
+}
+#article1 .rule strong {
+  font-size: 20px;
 }
 #article1 .rule1 {
   background: url(../images/rule1.jpg) no-repeat center top;

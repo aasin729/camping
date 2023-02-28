@@ -26,8 +26,17 @@
 #article1 .rule li {
   line-height: 1.5;
 }
+#article1 .rule1 {
+  background: url(../images/rule1.jpg) no-repeat center top;
+}
 #article1 .rule1 li {
   font-size: 20px;
+}
+#article1 .rule2 {
+  background: url(../images/rule2.jpg) no-repeat center top;
+}
+#article1 .rule3 {
+  background: url(../images/rule3.jpg) no-repeat center top;
 }
 #article1 .rule3 li {
   font-size: 20px;
@@ -62,7 +71,7 @@
   font-size: 20px;
 }
 #article3 .list {
-  padding: 100px 0;
+  padding: 50px 0;
   display: flex;
   list-style: none;
 }
@@ -70,7 +79,12 @@
   line-height: 2;
 }
 #article3 ul li {
-  width: 18%;
+  width: 15%;
+}
+#article3 ul li .box {
+  border: 2px solid #000;
+  height: 400px;
+  border-radius: 20px;
 }
 #article3 ul li .box img {
   border-radius: 50%;
@@ -82,10 +96,11 @@
 #article3 ul li .box p {
   line-height: 1.5;
   font-weight: 600;
+  padding: 10px 0;
 }
 
 #article4 {
   display: flex;
   padding: 50px;
-  background-color: #9575cd;
+  background-color: #000;
 }/*# sourceMappingURL=index.css.map */

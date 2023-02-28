@@ -1,0 +1,91 @@
+* {
+  margin: 0 auto;
+}
+
+#article1 {
+  display: flex;
+  text-align: center;
+  margin: 50px auto;
+}
+#article1 .rule {
+  width: 25%;
+  height: 500px;
+  border-radius: 20px;
+  background-color: #9e9e9e;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+#article1 .rule h1 {
+  margin: 20px 0;
+  font-size: 30px;
+}
+#article1 .rule ul {
+  list-style: none;
+}
+#article1 .rule li {
+  line-height: 1.5;
+}
+#article1 .rule1 li {
+  font-size: 20px;
+}
+#article1 .rule3 li {
+  font-size: 20px;
+}
+
+#article2 {
+  padding: 150px 0;
+  background: url(../images/camping6.jpg) no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 100px;
+  color: #fff;
+  text-align: center;
+}
+#article2 p {
+  font-size: 40px;
+  line-height: 2;
+}
+#article2 h2 {
+  font-size: 35px;
+}
+
+#article3 {
+  margin: 50px auto;
+  text-align: center;
+}
+#article3 h1 {
+  font-size: 35px;
+}
+#article3 strong {
+  line-height: 2;
+  font-size: 20px;
+}
+#article3 .list {
+  padding: 100px 0;
+  display: flex;
+  list-style: none;
+}
+#article3 .intro {
+  line-height: 2;
+}
+#article3 ul li {
+  width: 18%;
+}
+#article3 ul li .box img {
+  border-radius: 50%;
+  padding: 20px 0;
+}
+#article3 ul li .box h3 {
+  line-height: 3;
+}
+#article3 ul li .box p {
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+#article4 {
+  display: flex;
+  padding: 50px;
+  background-color: #9575cd;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,60 @@
+$phone: "screen and ( max-width:1024px)"; 
+
+*{ margin: 0 auto; }
+#article1{
+    display: flex; text-align:center;
+    margin: 50px auto;
+    .rule{
+        width: 25%; height: 500px; border-radius: 20px;
+        background-color: #9e9e9e;
+        color: #fff; text-decoration: none;  
+        text-align: center;
+        h1{ margin: 20px 0; font-size: 30px;}
+        ul{list-style: none;}
+        li{ line-height: 1.5;}
+    }
+    .rule1{
+        li{font-size: 20px;}
+    }
+    .rule3{
+        li{font-size: 20px;}
+    }
+}
+
+#article2{
+    padding: 150px 0;
+    background: url(../images/camping6.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+    color: #fff; text-align: center;
+    p{ font-size: 40px; line-height: 2;}
+    h2{ font-size: 35px; }
+}
+
+#article3{
+    margin: 50px auto; text-align: center;
+    // .box{ width: 40%;}
+     h1{ font-size: 35px;}
+     strong{ line-height: 2; font-size: 20px;}
+    .list{padding: 100px 0; display: flex; list-style: none;}
+    .intro { line-height: 2;}
+    
+    ul{
+        li{ width: 18%; 
+
+            .box{
+                // background: #9e9e9e;
+                img{border-radius: 50%; padding: 20px 0;}
+                h3{line-height: 3;}
+                p{ line-height: 1.5; font-weight: 600;}
+            }
+        }
+    }
+
+}
+
+#article4{
+    display: flex; padding: 50px;
+    background-color: #9575cd;
+}

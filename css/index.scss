@@ -25,24 +25,38 @@ $phone: "screen and ( max-width:1024px)";
         }
         &:hover .safe{
             opacity: 1; 
-            h1{transform: translateY(0px);}
+            h1{transform: translateY(0px);} 
             ul{transform: translateY(0px);}
         }
     }
+    
+    // .on .rule1{
+    //     transform: translateX(0%); opacity: 1; transition: all 1s 0.3s;
+    // }
+    // .on .rule2{
+    //     transform: translateY(0%); opacity: 1; transition: all 1s 0.3s;
+    // }
+    // .on .rule3{
+    //     transform: translateX(0%); opacity: 1; transition: all 1s 0.3s;
+    // }
+
+
     .rule1{
         li{font-size: 17px; padding: 15px 0;}
         background: url(../images/rule1.jpg) no-repeat center top; 
+        // transform: translateX(-120%);  opacity: 0;
     }
     .rule2{
         li{font-size: 14px;}
        background: url(../images/rule2.jpg) no-repeat center top;
+    //    transform: translateY(-120%); opacity: 0;
     }
     .rule3{
         li{font-size: 17px; padding: 6px 0; letter-spacing: 1px;}
         background: url(../images/rule3.jpg) no-repeat center top;
+        // transform: translateX(120%);  opacity: 0;
     }
 }
-
 
 #article2{
     padding: 150px 0;
@@ -58,18 +72,17 @@ $phone: "screen and ( max-width:1024px)";
 #article3{
     max-width: 1500px;
     margin: 50px auto; text-align: center;
-    // .box{ width: 40%;}
      h1{ font-size: 35px;}
      strong{ line-height: 2; font-size: 20px;}
     .list{padding: 50px 0; display: flex; list-style: none;}
     .intro { line-height: 2;}
     
     ul{
+        .on .list{transform: translateY(-100%); opacity: 1; transition: all 1s 0.3s}
         li{ width: 18%; 
 
             .box{
-                // background: #9e9e9e;
-                border: 5px solid #d81b60; height: 350px;
+                border: 6px solid #d81b60; height: 350px;
                 border-radius: 20px;
                 img{border-radius: 50%; padding: 20px 0;}
                 h3{line-height: 2; font-size: 25px;}
@@ -88,6 +101,11 @@ $phone: "screen and ( max-width:1024px)";
     text-align: center;
     h1{ padding: 10px 0; font-size: 30px;}
     h2{ padding: 30px; color:rgb(85, 89, 105);}
-    iframe{ margin: 0 20px; border-radius: 30px; }
+    .img{cursor: pointer; display: flex;
+     p{ flex: 1; margin: 0 20px;
+
+     }
+    }
+    // iframe{ margin: 0 20px; }
  
 }

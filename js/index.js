@@ -1,27 +1,13 @@
-// //article1, article3, 부분
-
-// let article1Near = $('.article1').offset().top - $(window).height()/2
-
-// let article3Near = $('.article3').offset().top - $(window).height()/2
 
 
-// $(window).on('scroll', function(){
-//    let sct =  $(this).scrollTop()
-//    if(sct >= article1Near){
-//     $('.rule').addClass('on')
-//    }else{
-//     $('.rule').removeClass('on')
-//    }
+$(window).on('load', function(){
 
-
-//    if(sct >= article3Near){
-//     $('.list').addClass('on')
-//    }else{
-//     $('.list').removeClass('on')
-//    }
-
-// })
-
+    //새로고침시 맨 위로
+    setTimeout (function () {
+      scrollTo(0,0);
+      },100);
+  
+  });
 
 
 // article4 이미지 클릭하면 모달창에서 크게 보기
@@ -49,13 +35,12 @@ $('.article4 .movie .img img').on('click', function(){
 
    
      $('.modal .imgbox').css({
-         position:'absolute',
-         width:'45%',
-         height:'45%',
-         top:'200px',
-         left:'200px',
-         right:'200px',
-         bottom:'200px',
+        position:'absolute',
+        width:'45%',
+        height:'45%',
+        top:'50%',
+        left:'50%',
+        transform:'translate(-50%, -70%)'
          
      })
     

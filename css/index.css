@@ -7,6 +7,7 @@
   display: flex;
   text-align: center;
   margin: 50px auto;
+  padding: 50px 0;
 }
 #article1 .rule {
   width: 30%;
@@ -19,6 +20,8 @@
   text-align: center;
   overflow: hidden;
   margin: 0 50px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  animation: flipInY 2s alternate;
 }
 #article1 .rule .safe {
   position: absolute;
@@ -34,18 +37,19 @@
 #article1 .rule .safe h1 {
   padding: 40px 0;
   font-size: 23px;
-  transform: translateY(20px);
+  transform: translateY(30px);
   transition: all 0.4s;
   letter-spacing: 3px;
 }
 #article1 .rule .safe ul {
   list-style: none;
-  transform: translateY(20px);
+  transform: translateY(30px);
   transition: all 0.4s;
 }
 #article1 .rule .safe li {
   line-height: 1.8;
   text-align: left;
+  padding-left: 40px;
 }
 #article1 .rule .safe strong {
   font-size: 20px;
@@ -97,10 +101,12 @@
 }
 #article2 h2 {
   font-size: 35px;
+  line-height: 1.5;
 }
 
 #article3 {
   max-width: 1500px;
+  padding: 50px 0;
   margin: 50px auto;
   text-align: center;
 }
@@ -112,29 +118,31 @@
   font-size: 20px;
 }
 #article3 .list {
-  padding: 50px 0;
+  padding: 50px;
   display: flex;
   list-style: none;
+  animation: pulse 1.5s alternate infinite;
+}
+#article3 .list:hover {
+  animation: none;
 }
 #article3 .intro {
   line-height: 2;
 }
-#article3 ul .on .list {
-  transform: translateY(-100%);
-  opacity: 1;
-  transition: all 1s 0.3s;
-}
 #article3 ul li {
-  width: 18%;
+  width: 20%;
+  margin: 0 auto;
 }
 #article3 ul li .box {
   border: 6px solid #d81b60;
-  height: 350px;
-  border-radius: 20px;
+  height: 300px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 #article3 ul li .box img {
   border-radius: 50%;
   padding: 20px 0;
+  text-align: center;
 }
 #article3 ul li .box h3 {
   line-height: 2;
@@ -158,19 +166,27 @@
   color: #fff;
   text-align: center;
 }
+#article4 .movie {
+  margin: 0 auto;
+}
 #article4 h1 {
   padding: 10px 0;
   font-size: 30px;
 }
 #article4 h2 {
-  padding: 30px;
+  padding: 20px;
   color: rgb(85, 89, 105);
+  font-size: 20px;
+}
+#article4 strong {
+  font-size: 25px;
 }
 #article4 .img {
+  padding: 20px 0;
   cursor: pointer;
   display: flex;
 }
 #article4 .img p {
   flex: 1;
-  margin: 0 20px;
+  margin: 0 30px;
 }/*# sourceMappingURL=index.css.map */

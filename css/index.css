@@ -30,7 +30,7 @@
 }
 @media screen and (max-width:1024px) {
   #article1 .rule {
-    width: 60%;
+    width: 80%;
     margin: 30px auto;
   }
 }
@@ -48,7 +48,7 @@
 @media screen and (max-width:1024px) {
   #article1 .rule .safe {
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
   }
 }
 #article1 .rule .safe h1 {
@@ -60,7 +60,7 @@
 }
 @media screen and (max-width:1024px) {
   #article1 .rule .safe h1 {
-    font-size: 14px;
+    font-size: 20px;
   }
 }
 #article1 .rule .safe ul {
@@ -107,7 +107,7 @@
 }
 @media screen and (max-width:1024px) {
   #article1 .rule1 li {
-    font-size: 13px;
+    font-size: 15px;
     padding: 10px 0;
   }
 }
@@ -120,7 +120,7 @@
 }
 @media screen and (max-width:1024px) {
   #article1 .rule2 li {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 #article1 .rule3 {
@@ -134,7 +134,7 @@
 }
 @media screen and (max-width:1024px) {
   #article1 .rule3 li {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 

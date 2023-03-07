@@ -95,7 +95,7 @@ $phone: "screen and (max-width:1024px)";
         margin: 0 30px;
     }
      strong{ line-height: 3; font-size: 20px;
-        @media #{$phone}{ font-size: 25px; font-weight: bold;}}
+        @media #{$phone}{ font-size: 18px; font-weight: bold;}}
 
     .list:hover{
         animation: none;
@@ -106,24 +106,25 @@ $phone: "screen and (max-width:1024px)";
     .list{ 
         padding: 50px; display: flex; list-style: none;  
         animation: pulse 1.5s alternate infinite; 
-        @media #{$phone}{ animation: none; flex-wrap: wrap;}
+        @media #{$phone}{ animation: none; padding: 10px; flex-wrap: wrap;}
         li{ flex:1 1 25%; margin: 0 20px;
-            @media #{$phone}{ flex:1 1 40%; margin: 15px 15px;}
+            @media #{$phone}{ flex:1 1 40%; margin: 5px 5px;}
             
             .box{
                 border: 6px solid #d81b60; height: 330px;
                 border-radius: 50px; box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-                @media #{$phone}{ height: 270px; }
+                @media #{$phone}{ height: 230px;  border-radius: 20px; }
                 img{border-radius: 50%; padding: 20px 0; text-align: center; 
                     @media #{$phone}{ width: 100%; padding: 10px 0; }
                 }
                 h3{line-height: 2; font-size: 25px;
-                    @media #{$phone}{ font-size: 22px;}
+                    @media #{$phone}{ font-size: 15px; }
                 }
                 p{ line-height: 1.5; font-weight: 600; padding: 10px 0; font-size: 15px;
-                    @media #{$phone}{ font-size: 13px;}
+                    @media #{$phone}{ font-size: 12px; padding: 0 5px;}
                 }
-                img{width: 50%;}
+                img{width: 50%;
+                }
             }
         }
     }
@@ -134,14 +135,15 @@ $phone: "screen and (max-width:1024px)";
     background-color: #000;
     color: #fff;
     text-align: center;
+    @media #{$phone}{ padding: 10px;}
     .movie{ margin: 0 auto; }
     h1{ padding: 10px 0; font-size: 30px;
-        @media #{$phone}{ font-size: 25px;}}
+        @media #{$phone}{ font-size: 20px;}}
     h2{ padding: 20px; color:rgb(85, 89, 105); font-size: 20px;
-        @media #{$phone}{ font-size: 15px;}}
+        @media #{$phone}{ font-size: 14px;}}
     strong{font-size: 25px;}
     .img{ padding: 20px 0; cursor: pointer; display: flex;
-        @media #{$phone}{ display: block; width: 100%;}
+        @media #{$phone}{ display: block; width: 100%;  text-align: center;}
      p{ flex: 1; margin: 0 30px;
         @media #{$phone}{ padding: 10px 0;}
      }

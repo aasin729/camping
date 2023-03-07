@@ -192,7 +192,7 @@
 }
 @media screen and (max-width:1024px) {
   #article3 strong {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
   }
 }
@@ -216,6 +216,7 @@
 @media screen and (max-width:1024px) {
   #article3 .list {
     animation: none;
+    padding: 10px;
     flex-wrap: wrap;
   }
 }
@@ -226,7 +227,7 @@
 @media screen and (max-width:1024px) {
   #article3 .list li {
     flex: 1 1 40%;
-    margin: 15px 15px;
+    margin: 5px 5px;
   }
 }
 #article3 .list li .box {
@@ -237,7 +238,8 @@
 }
 @media screen and (max-width:1024px) {
   #article3 .list li .box {
-    height: 270px;
+    height: 230px;
+    border-radius: 20px;
   }
 }
 #article3 .list li .box img {
@@ -257,7 +259,7 @@
 }
 @media screen and (max-width:1024px) {
   #article3 .list li .box h3 {
-    font-size: 22px;
+    font-size: 15px;
   }
 }
 #article3 .list li .box p {
@@ -268,7 +270,8 @@
 }
 @media screen and (max-width:1024px) {
   #article3 .list li .box p {
-    font-size: 13px;
+    font-size: 12px;
+    padding: 0 5px;
   }
 }
 #article3 .list li .box img {
@@ -282,6 +285,11 @@
   color: #fff;
   text-align: center;
 }
+@media screen and (max-width:1024px) {
+  #article4 {
+    padding: 10px;
+  }
+}
 #article4 .movie {
   margin: 0 auto;
 }
@@ -291,7 +299,7 @@
 }
 @media screen and (max-width:1024px) {
   #article4 h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 #article4 h2 {
@@ -301,7 +309,7 @@
 }
 @media screen and (max-width:1024px) {
   #article4 h2 {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 #article4 strong {
@@ -316,6 +324,7 @@
   #article4 .img {
     display: block;
     width: 100%;
+    text-align: center;
   }
 }
 #article4 .img p {

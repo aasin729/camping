@@ -1,0 +1,346 @@
+* {
+  margin: 0 auto;
+}
+
+#article1 {
+  max-width: 1500px;
+  display: flex;
+  text-align: center;
+  margin: 50px auto;
+  padding: 100px 0;
+}
+@media screen and (max-width:1024px) {
+  #article1 {
+    display: block;
+  }
+}
+#article1 .rule {
+  width: 30%;
+  height: 500px;
+  border-radius: 40px;
+  background-color: #9e9e9e;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 50px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  animation: flipInY 2s alternate;
+}
+@media screen and (max-width:1024px) {
+  #article1 .rule {
+    width: 80%;
+    margin: 30px auto;
+  }
+}
+#article1 .rule .safe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+@media screen and (max-width:1024px) {
+  #article1 .rule .safe {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+#article1 .rule .safe h1 {
+  padding: 40px 0;
+  font-size: 23px;
+  transform: translateY(30px);
+  transition: all 0.4s;
+  letter-spacing: 3px;
+}
+@media screen and (max-width:1024px) {
+  #article1 .rule .safe h1 {
+    font-size: 20px;
+  }
+}
+#article1 .rule .safe ul {
+  list-style: none;
+  transform: translateY(30px);
+  transition: all 0.4s;
+}
+#article1 .rule .safe li {
+  line-height: 1.8;
+  text-align: left;
+  padding-left: 40px;
+}
+@media screen and (max-width:1024px) {
+  #article1 .rule .safe li {
+    text-align: center;
+    padding-left: 20px;
+  }
+}
+#article1 .rule .safe strong {
+  font-size: 20px;
+  color: red;
+}
+@media screen and (max-width:1024px) {
+  #article1 .rule .safe strong {
+    font-size: 15px;
+  }
+}
+#article1 .rule:hover .safe {
+  opacity: 1;
+}
+#article1 .rule:hover .safe h1 {
+  transform: translateY(0px);
+}
+#article1 .rule:hover .safe ul {
+  transform: translateY(0px);
+}
+#article1 .rule1 {
+  background: url(../images/rule1.jpg) no-repeat center top;
+  background-size: cover;
+}
+#article1 .rule1 li {
+  font-size: 17px;
+  padding: 15px 0;
+}
+@media screen and (max-width:1024px) {
+  #article1 .rule1 li {
+    font-size: 15px;
+    padding: 20px 0;
+  }
+}
+#article1 .rule2 {
+  background: url(../images/rule2.jpg) no-repeat center top;
+  background-size: cover;
+}
+#article1 .rule2 li {
+  font-size: 14px;
+}
+@media screen and (max-width:1024px) {
+  #article1 .rule2 li {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+}
+#article1 .rule3 {
+  background: url(../images/rule3.jpg) no-repeat center top;
+  background-size: cover;
+}
+#article1 .rule3 li {
+  font-size: 17px;
+  padding: 6px 0;
+  letter-spacing: 1px;
+}
+@media screen and (max-width:1024px) {
+  #article1 .rule3 li {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+}
+
+#article2 {
+  padding: 150px 0;
+  background: url(../images/camping6.jpg) no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 100px;
+  color: #fff;
+  text-align: center;
+}
+#article2 p {
+  font-size: 40px;
+  line-height: 2;
+}
+@media screen and (max-width:1024px) {
+  #article2 p {
+    font-size: 30px;
+  }
+}
+#article2 h2 {
+  font-size: 35px;
+  line-height: 1.5;
+}
+@media screen and (max-width:1024px) {
+  #article2 h2 {
+    font-size: 25px;
+  }
+}
+
+#article3 {
+  max-width: 1500px;
+  padding: 50px 0;
+  margin: 50px auto;
+  text-align: center;
+}
+#article3 h1 {
+  font-size: 35px;
+}
+@media screen and (max-width:1024px) {
+  #article3 h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+}
+#article3 .content1 {
+  margin: 0 30px;
+}
+#article3 strong {
+  line-height: 3;
+  font-size: 20px;
+}
+@media screen and (max-width:1024px) {
+  #article3 strong {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+#article3 .list:hover {
+  animation: none;
+}
+#article3 .intro {
+  line-height: 2;
+}
+@media screen and (max-width:1024px) {
+  #article3 .intro {
+    display: none;
+  }
+}
+#article3 .list {
+  padding: 50px;
+  display: flex;
+  list-style: none;
+  animation: vibration 0.2s infinite;
+}
+@keyframes vibration {
+  from {
+    transform: rotate(1deg);
+  }
+  to {
+    transform: rotate(-1deg);
+  }
+}
+@media screen and (max-width:1024px) {
+  #article3 .list {
+    animation: none;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+}
+#article3 .list li {
+  flex: 1 1 25%;
+  margin: 0 20px;
+}
+@media screen and (max-width:1024px) {
+  #article3 .list li {
+    flex: 1 1 40%;
+    margin: 5px 5px;
+  }
+}
+#article3 .list li .box {
+  border: 6px solid #d81b60;
+  height: 330px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+@media screen and (max-width:1024px) {
+  #article3 .list li .box {
+    height: 230px;
+    border-radius: 20px;
+  }
+}
+#article3 .list li .box img {
+  border-radius: 50%;
+  padding: 20px 0;
+  text-align: center;
+}
+@media screen and (max-width:1024px) {
+  #article3 .list li .box img {
+    width: 100%;
+    padding: 10px 0;
+  }
+}
+#article3 .list li .box h3 {
+  line-height: 2;
+  font-size: 25px;
+}
+@media screen and (max-width:1024px) {
+  #article3 .list li .box h3 {
+    font-size: 15px;
+  }
+}
+#article3 .list li .box p {
+  line-height: 1.5;
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 15px;
+}
+@media screen and (max-width:1024px) {
+  #article3 .list li .box p {
+    font-size: 12px;
+    padding: 0 5px;
+  }
+}
+#article3 .list li .box img {
+  width: 50%;
+}
+
+#article4 {
+  display: flex;
+  padding: 50px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+@media screen and (max-width:1024px) {
+  #article4 {
+    padding: 10px;
+  }
+}
+#article4 .movie {
+  margin: 0 auto;
+}
+#article4 h1 {
+  padding: 10px 0;
+  font-size: 30px;
+}
+@media screen and (max-width:1024px) {
+  #article4 h1 {
+    font-size: 20px;
+  }
+}
+#article4 h2 {
+  padding: 20px;
+  color: rgb(85, 89, 105);
+  font-size: 20px;
+}
+@media screen and (max-width:1024px) {
+  #article4 h2 {
+    font-size: 14px;
+  }
+}
+#article4 strong {
+  font-size: 25px;
+}
+#article4 .img {
+  padding: 20px 0;
+  cursor: pointer;
+  display: flex;
+}
+@media screen and (max-width:1024px) {
+  #article4 .img {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+#article4 .img p {
+  flex: 1;
+  margin: 0 30px;
+}
+@media screen and (max-width:1024px) {
+  #article4 .img p {
+    padding: 10px 0;
+  }
+}/*# sourceMappingURL=safety.css.map */

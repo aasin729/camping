@@ -108,7 +108,7 @@
 @media screen and (max-width:1024px) {
   #article1 .rule1 li {
     font-size: 15px;
-    padding: 10px 0;
+    padding: 20px 0;
   }
 }
 #article1 .rule2 {
@@ -121,6 +121,7 @@
 @media screen and (max-width:1024px) {
   #article1 .rule2 li {
     font-size: 14px;
+    padding: 10px 0;
   }
 }
 #article1 .rule3 {
@@ -135,6 +136,7 @@
 @media screen and (max-width:1024px) {
   #article1 .rule3 li {
     font-size: 15px;
+    padding: 10px 0;
   }
 }
 
@@ -178,29 +180,20 @@
 @media screen and (max-width:1024px) {
   #article3 h1 {
     font-size: 30px;
+    margin: 0;
   }
 }
 #article3 .content1 {
   margin: 0 30px;
 }
 #article3 strong {
-  line-height: 2;
+  line-height: 3;
   font-size: 20px;
 }
 @media screen and (max-width:1024px) {
   #article3 strong {
-    font-size: 15px;
-  }
-}
-#article3 .list {
-  padding: 50px;
-  display: flex;
-  list-style: none;
-  animation: pulse 1.5s alternate infinite;
-}
-@media screen and (max-width:1024px) {
-  #article3 .list {
-    display: block;
+    font-size: 25px;
+    font-weight: bold;
   }
 }
 #article3 .list:hover {
@@ -211,64 +204,75 @@
 }
 @media screen and (max-width:1024px) {
   #article3 .intro {
-    font-size: 15px;
+    display: none;
   }
 }
-#article3 ul li {
-  width: 20%;
-  margin: 0 auto;
+#article3 .list {
+  padding: 50px;
+  display: flex;
+  list-style: none;
+  animation: pulse 1.5s alternate infinite;
 }
 @media screen and (max-width:1024px) {
-  #article3 ul li {
-    width: 100%;
-    margin: 10px 0;
+  #article3 .list {
+    animation: none;
+    flex-wrap: wrap;
   }
 }
-#article3 ul li .box {
+#article3 .list li {
+  flex: 1 1 25%;
+  margin: 0 20px;
+}
+@media screen and (max-width:1024px) {
+  #article3 .list li {
+    flex: 1 1 40%;
+    margin: 15px 15px;
+  }
+}
+#article3 .list li .box {
   border: 6px solid #d81b60;
-  height: 300px;
+  height: 330px;
   border-radius: 50px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 @media screen and (max-width:1024px) {
-  #article3 ul li .box {
+  #article3 .list li .box {
     height: 270px;
   }
 }
-#article3 ul li .box img {
+#article3 .list li .box img {
   border-radius: 50%;
   padding: 20px 0;
   text-align: center;
 }
 @media screen and (max-width:1024px) {
-  #article3 ul li .box img {
-    width: 100px;
+  #article3 .list li .box img {
+    width: 100%;
     padding: 10px 0;
   }
 }
-#article3 ul li .box h3 {
+#article3 .list li .box h3 {
   line-height: 2;
   font-size: 25px;
 }
 @media screen and (max-width:1024px) {
-  #article3 ul li .box h3 {
+  #article3 .list li .box h3 {
     font-size: 22px;
   }
 }
-#article3 ul li .box p {
+#article3 .list li .box p {
   line-height: 1.5;
   font-weight: 600;
   padding: 10px 0;
   font-size: 15px;
 }
 @media screen and (max-width:1024px) {
-  #article3 ul li .box p {
+  #article3 .list li .box p {
     font-size: 13px;
   }
 }
-#article3 ul li .box img {
-  width: 150px;
-  height: 150px;
+#article3 .list li .box img {
+  width: 50%;
 }
 
 #article4 {

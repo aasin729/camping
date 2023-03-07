@@ -28,7 +28,7 @@ $('.article4 .movie .img img').on('click', function(){
         top:0,
         left:0,
         width:'100%',
-        // height:'100%',
+        height:'100%',
         paddingTop:'56.25%',
         background:'rgba(0,0,0,0.7)'
     })
@@ -36,11 +36,11 @@ $('.article4 .movie .img img').on('click', function(){
    
      $('.modal .imgbox').css({
         position:'absolute',
-        width:'45%',
-        height:'45%',
+        width:'60vw',
+        height:'40vw',
         top:'50%',
         left:'50%',
-        transform:'translate(-50%, -70%)'
+        transform:'translate(-50%, -60%)'
          
      })
     
